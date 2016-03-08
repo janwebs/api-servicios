@@ -1,0 +1,256 @@
+[2016-03-07 15:24:06] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'Too many arguments.' in /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php:179
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('???create=books')
+#1 /var/www/html/api-servicios/vendor/symfony/console/Input/Input.php(64): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 /var/www/html/api-servicios/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 /var/www/html/api-servicios/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/api-servicios/vendor/symfony/console/Application.php(791): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/api-servicios/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/api-servicios/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Console/Kernel.php(69): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/api-servicios/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 {main}  
+[2016-03-07 15:27:44] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'Too many arguments.' in /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php:179
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('???create=books')
+#1 /var/www/html/api-servicios/vendor/symfony/console/Input/Input.php(64): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 /var/www/html/api-servicios/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 /var/www/html/api-servicios/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/api-servicios/vendor/symfony/console/Application.php(791): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/api-servicios/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/api-servicios/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Console/Kernel.php(69): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/api-servicios/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 {main}  
+[2016-03-07 15:29:27] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'Too many arguments.' in /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php:179
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('???create=books')
+#1 /var/www/html/api-servicios/vendor/symfony/console/Input/Input.php(64): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 /var/www/html/api-servicios/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 /var/www/html/api-servicios/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/api-servicios/vendor/symfony/console/Application.php(791): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/api-servicios/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/api-servicios/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Console/Kernel.php(69): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/api-servicios/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 {main}  
+[2016-03-07 15:34:26] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'Too many arguments.' in /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php:179
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('???create=books')
+#1 /var/www/html/api-servicios/vendor/symfony/console/Input/Input.php(64): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 /var/www/html/api-servicios/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 /var/www/html/api-servicios/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/api-servicios/vendor/symfony/console/Application.php(791): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/api-servicios/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/api-servicios/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Console/Kernel.php(69): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/api-servicios/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 {main}  
+[2016-03-07 15:41:14] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'Too many arguments.' in /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php:179
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('???create=books')
+#1 /var/www/html/api-servicios/vendor/symfony/console/Input/Input.php(64): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 /var/www/html/api-servicios/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 /var/www/html/api-servicios/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/api-servicios/vendor/symfony/console/Application.php(791): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/api-servicios/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/api-servicios/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Console/Kernel.php(69): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/api-servicios/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 {main}  
+[2016-03-07 16:06:56] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'Too many arguments.' in /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php:179
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('???create=books')
+#1 /var/www/html/api-servicios/vendor/symfony/console/Input/Input.php(64): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 /var/www/html/api-servicios/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 /var/www/html/api-servicios/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/api-servicios/vendor/symfony/console/Application.php(791): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/api-servicios/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/api-servicios/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Console/Kernel.php(69): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/api-servicios/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 {main}  
+[2016-03-07 18:55:29] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "serve" is not defined.' in /var/www/html/api-servicios/vendor/symfony/console/Application.php:512
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/symfony/console/Application.php(183): Symfony\Component\Console\Application->find('serve')
+#1 /var/www/html/api-servicios/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Console/Kernel.php(69): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/api-servicios/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2016-03-07 18:58:43] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "serve" is not defined.' in /var/www/html/api-servicios/vendor/symfony/console/Application.php:512
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/symfony/console/Application.php(183): Symfony\Component\Console\Application->find('serve')
+#1 /var/www/html/api-servicios/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Console/Kernel.php(69): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/api-servicios/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2016-03-07 20:18:04] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /var/www/html/api-servicios/app/Http/routes.php:17
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 20:40:02] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\BookController does not exist' in /var/www/html/api-servicios/vendor/illuminate/container/Container.php:738
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(738): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Application.php(205): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(516): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(489): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(474): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(448): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(381): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#8 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(624): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#9 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(382): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(327): Laravel\Lumen\Application->dispatch(NULL)
+#11 /var/www/html/api-servicios/public/index.php(28): Laravel\Lumen\Application->run()
+#12 {main}  
+[2016-03-07 20:42:46] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\BookController does not exist' in /var/www/html/api-servicios/vendor/illuminate/container/Container.php:738
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(738): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Application.php(205): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(516): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(489): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(474): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(448): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(381): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#8 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(624): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#9 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(382): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(327): Laravel\Lumen\Application->dispatch(NULL)
+#11 /var/www/html/api-servicios/public/index.php(28): Laravel\Lumen\Application->run()
+#12 {main}  
+[2016-03-07 20:43:09] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\BookController does not exist' in /var/www/html/api-servicios/vendor/illuminate/container/Container.php:738
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(738): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Application.php(205): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(516): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(489): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(474): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(448): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(381): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#8 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(624): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#9 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(382): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(327): Laravel\Lumen\Application->dispatch(NULL)
+#11 /var/www/html/api-servicios/public/index.php(28): Laravel\Lumen\Application->run()
+#12 {main}  
+[2016-03-07 20:43:27] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\BookController does not exist' in /var/www/html/api-servicios/vendor/illuminate/container/Container.php:738
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(738): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Application.php(205): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(516): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(489): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(474): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(376): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(624): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(382): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(327): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/api-servicios/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-03-07 20:46:44] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\BookController does not exist' in /var/www/html/api-servicios/vendor/illuminate/container/Container.php:738
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(738): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Application.php(205): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(516): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(489): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(474): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(376): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(624): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(382): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(327): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/api-servicios/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-03-07 20:48:32] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\BookController does not exist' in /var/www/html/api-servicios/vendor/illuminate/container/Container.php:738
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(738): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Application.php(205): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(516): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(489): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(474): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(376): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(624): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(382): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(327): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/api-servicios/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-03-07 20:48:34] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\BookController does not exist' in /var/www/html/api-servicios/vendor/illuminate/container/Container.php:738
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(738): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Application.php(205): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(516): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(489): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(474): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(376): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(624): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(382): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(327): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/api-servicios/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-03-07 20:48:42] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\BookController does not exist' in /var/www/html/api-servicios/vendor/illuminate/container/Container.php:738
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(738): ReflectionClass->__construct('App\Http\Contro...')
+#1 /var/www/html/api-servicios/vendor/illuminate/container/Container.php(633): Illuminate\Container\Container->build('App\Http\Contro...', Array)
+#2 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Application.php(205): Illuminate\Container\Container->make('App\Http\Contro...', Array)
+#3 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(516): Laravel\Lumen\Application->make('App\Http\Contro...')
+#4 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(489): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(474): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(376): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(624): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(382): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(327): Laravel\Lumen\Application->dispatch(NULL)
+#10 /var/www/html/api-servicios/public/index.php(28): Laravel\Lumen\Application->run()
+#11 {main}  
+[2016-03-07 20:52:24] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 20:54:33] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 20:55:42] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 20:58:21] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 20:58:24] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 21:07:01] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 21:07:05] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 21:07:28] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 21:08:37] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-03-07 21:08:57] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'namespace' (T_NAMESPACE)' in /var/www/html/api-servicios/app/Book.php:25
+Stack trace:
+#0 /var/www/html/api-servicios/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
